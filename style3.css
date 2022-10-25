@@ -2,3 +2,31 @@
     background-color:cornflowerblue;
     width: 100%;
 }
+
+#after{
+    background-color:cornflowerblue;
+    width: 100%;
+}
+#box1{
+    
+    background-color: black;
+    color: beige;
+    padding: 10px 12px; /* khảng cách giữa các dong chữ */
+    height: 60px;
+}
+#box2{
+    background-color: darkgreen;
+}
+
+#box3{
+    background-color: red;
+    word-wrap: break-word;
+    color:beige ;
+    width:210px;
+    height: 100px;
+}
+.chung #box3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

@@ -1,13 +1,14 @@
 .gray{
     background-color: gray;
-    width: 600px;
-    height: 400px;
+    width: 50%;
+    height: 300px;
 }
 #red{
     background-color: red;
     width: 100px;
     height: 50px;
     margin-top: 10px;
+    margin-left: 30%;
 }
 #green{
     background-color: green;
@@ -19,5 +20,33 @@
     background-color: yellow;
     width: 100px;
     height: 50px;
-    margin-top: 10px;
+    margin-top: -17px;
+    margin-left: 30%;
+
+}
+#green #yellow{
+    position: absolute;
+}
+
+.nav{
+    margin-top: 50px;
+    list-style-type: none;
+    background-color: aquamarine;
+    /* text-align: center ; */
+    padding: 0px;
+    display: flex;
+}
+
+.nav li{
+    /* display: inline-block; */
+    padding :20px;
+    margin: auto;
+}   
+.site-header{
+    margin-top: 20px;
+    padding:20PX ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
 }
