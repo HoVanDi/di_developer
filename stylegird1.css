@@ -1,0 +1,98 @@
+/* *{
+    margin: 0;
+} */
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: -378px;   
+}
+.banner{
+    background-color: aquamarine;
+    display: flex;
+    height: 200px;
+}
+
+.menu{
+    display: flex;
+    background-color: bisque;
+    grid-template-columns: 20% 1fr;
+    padding: 10px;
+}
+
+.banner .text{
+    margin-left: 200px;
+    margin-top: 35px;
+}
+
+.logo{
+    padding-top: 10px;
+}
+.left li{
+    list-style-type: none;
+    border-bottom: 1px solid black ;
+    width: 130px;
+    padding: 10px;
+}
+
+
+
+.boder{
+    border: 1px solid;
+    height: 900px;
+    display: flex;
+    background-color:aliceblue;
+}
+h2{
+    border-bottom: 1px solid black;
+    width: 110px;
+    padding: 20px;
+    margin: 0;
+}
+.left{
+    border-right: 1px solid;
+    height: 900px;
+    width: 150px;
+}
+
+.right{
+    padding: 30px;
+   
+}
+.list-card{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+  
+.card{
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;   /*flex item được sắp xếp theo chiều dọc*/
+    justify-content: center;  /*căn giữa các thành phần trong flexbox*/
+    align-items: center; /*đẩy các phần tử vào giữa hướng chính*/
+    margin: 10px;    
+ }
+ .card__img {
+    width: 250px;
+    height: 200px;
+    margin: 0;   /*đừa ảnh vồ trong*/
+ }
+
+ .card__name {
+    color: blue;
+    text-transform: uppercase; /*tất cả các chữ sẽ in hoa*/
+ }
+ .card__desc{
+    margin-top: 15px;
+    text-transform: uppercase;
+ }
+  
+ .card__status{
+    color: red;
+    font-weight: 800;
+ }
+ .card__buy{
+    margin-top: 5px;
+ }

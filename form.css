@@ -1,0 +1,19 @@
+.check{
+    margin-left: 100px;
+}
+.Gender .sex{
+    margin-left: 100px;
+}
+h1{
+    margin-left: 20px; 
+}
+text {
+    margin-left: 20px;
+}
+select{
+    background-color: bisque;
+    border: solid 2px black;
+    height: 20px;
+    width: 100px;
+}
+
