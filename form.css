@@ -1,19 +1,12 @@
-.check{
-    margin-left: 100px;
+.row{
+    padding: 10px;
 }
-.Gender .sex{
-    margin-left: 100px;
+.header {
+    padding-top: 20px;
 }
-h1{
-    margin-left: 20px; 
+.input-group-addon {
+    border: none;
 }
-text {
-    margin-left: 20px;
+.input-group-addon {
+    background: antiquewhite 2px;
 }
-select{
-    background-color: bisque;
-    border: solid 2px black;
-    height: 20px;
-    width: 100px;
-}
-
